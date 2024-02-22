@@ -1,31 +1,37 @@
-h1 {
-    text-align: center;
-    color: red;
-}
 
 .pClassBlue {
     text-align: left;
-    font-size: 20px;
-    color: blue;
+    font-size: 40px;
+    color: darkblue;
 }
-
-#idTest{
-    text-align: center;
+#header {
+    background-color: #f2f2f2;
     font-size: 50px;
+    color: #666;
+    padding: 50px;
+    text-align: center;
+}
+#header h1{
     color: orange;
+    font-size: 40px;
+    text-align: center;
 }
 
-a {
+#body{
+
+}
+
+#body a {
     font-size: 60px;
     color: blue;
     text-decoration: none;
 }
 
-a:hover {
+#body a:hover {
     color: purple;
 }
 
-img {
+#body img {
     max-width: 90%;
     height: auto; /* This ensures the aspect ratio is maintained */
     display: block; /* Removes extra space below inline images */

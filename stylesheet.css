@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    color: red;
+}
+
+.pClassBlue {
+    text-align: left;
+    font-size: 20px;
+    color: blue;
+}
+
+#idTest{
+    text-align: center;
+    font-size: 50px;
+    color: orange;
+}
+
+a {
+    font-size: 60px;
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: purple;
+}
+
+img {
+    max-width: 90%;
+    height: auto; /* This ensures the aspect ratio is maintained */
+    display: block; /* Removes extra space below inline images */
+    margin: 0 auto; /* Centers the image within its container */
+}
